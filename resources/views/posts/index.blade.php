@@ -9,6 +9,7 @@ Blog Posts
 @section("content")
 
   <div class="container">
+    
     <h1>Blog Posts
        <a href="{{url("/posts/create")}}" class="header-menu">New Post</a>
     </h1>
