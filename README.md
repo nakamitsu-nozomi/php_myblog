@@ -3,9 +3,8 @@
 php初心者が一晩で作ってみたアプリ
 <br>
 <br>
+
 ![php_myblog](https://user-images.githubusercontent.com/67478234/106823558-840d0100-66c4-11eb-954f-04aa36595ad7.gif)
-
-
 
 
 ## アプリ概要
