@@ -24,6 +24,11 @@ php/larabelのCRUD処理を使って作成したアプリ。
 - CRUD処理
 - 1対多のアソシエーション
 - バリテーション/エラー文を表示
+
+## 環境 
+- local環境
+- PHP 7.3.11 
+- Laravel Framework 8.25.0
 ## 作者
 [：Twitter](https://twitter.com/engneer_louis)  
 mail to: [exnnss0131@gmail.com](exnnss0131@gmail.com)
