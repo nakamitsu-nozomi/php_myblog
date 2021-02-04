@@ -16,7 +16,9 @@ Blog Posts
     <ul>
       @forelse ($posts as $post)
         {{-- <li><a href="{{url("/posts",$post->$id)}}">{{$post->title}}</a></li> --}}
-        <li>
+        <li class="card">
+          <p> {{ $post->user->name }}さんの投稿</p>   
+
           <a href="{{ action('PostsController@show', $post) }}">{{ $post->title }}</a>
           <a href="{{ action('PostsController@edit', $post) }}" class="edit">[Edit]</a>
           <a href="#" class="del" data-id="{{ $post->id }}">[x]</a>
