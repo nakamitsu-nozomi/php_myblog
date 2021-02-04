@@ -23,3 +23,7 @@ Route::patch("/posts/{post}", [PostsController::class, "update"]);
 Route::delete("/posts/{post}", [PostsController::class, "destroy"]);
 Route::post('/posts/{post}/comments', 'CommentsController@store');
 Route::delete("/posts/{post}/comments/{comment}", "CommentsController@destroy");
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
